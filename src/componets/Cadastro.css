@@ -1,0 +1,29 @@
+/* Cadastro.css */
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: linear-gradient(45deg, #e3c8b8, pink);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 50px;
+  border-radius: 15px;
+  color: white;
+  width: 300px; /* Defina a largura desejada da caixa */
+  text-align: center;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  width: 100%; /* Faça os inputs ocuparem toda a largura da caixa */
+}
